@@ -107,12 +107,10 @@
       <section class="subscribe">
         <h2 class="subscribe-intro">Подпишитесь на рассылку</h2>
         <p class="subscribe-intro-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form class="subscribe-form" action="https://echo.htmlacademy.ru" method="post">
-          <label>
-            Ваш e-mail
-            <input type="email" name="e-mail" required>
-          </label>
-          <button type="submit">Подписаться</button>
+        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label class="visually-hidden" for="newsletter-email">Email</label>
+          <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+          <button class="button button-newsletter" type="submit">Подписаться</button>
         </form>
         <img class="subscribe-img" src="#" alt="Размытое изображение гор">
       </section>
